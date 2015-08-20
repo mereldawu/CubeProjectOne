@@ -1,0 +1,57 @@
+Configuration	CubeProjectOne
+STM32CubeMX 	4.9.0
+Date	08/20/2015
+MCU	STM32L053R8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	B1 [Blue PushButton]
+3	PC14-OSC32_IN*	RCC_OSC32_IN	
+4	PC15-OSC32_OUT*	RCC_OSC32_OUT	
+5	PH0-OSC_IN*	RCC_OSC_IN	
+6	PH1-OSC_OUT*	RCC_OSC_OUT	
+14	PA0	GPIO_Output	
+15	PA1	GPIO_Input	
+16	PA2*	USART2_TX	USART_TX
+17	PA3*	USART2_RX	USART_RX
+20	PA4	GPIO_Output	
+21	PA5	GPIO_Output	LD2 [Green Led]
+26	PB0	GPIO_Output	
+46	PA13	SYS_SWDIO	TMS
+49	PA14	SYS_SWCLK	TCK
+55	PB3	GPIO_EXTI3	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : CubeProjectOne
+Project Folder : \\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_L0 V1.1.2
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per IP : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
