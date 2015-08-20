@@ -36,8 +36,16 @@
 #include "tim.h"
 #include "gpio.h"
 
+/* IO Definitions ----------------------------------------------------------*/
+#define LD2_PIN GPIO_PIN_5
+#define BTN_PIN GPIO_PIN_13
+#define RED_LED_PIN GPIO_PIN_0
+#define BICOLOR_RED_PIN GPIO_PIN_4
+#define BICOLOR_GREEN_PIN GPIO_PIN_0
+
 /* Private variables ---------------------------------------------------------*/
 volatile uint32_t blink_period = 500; // in milliseconds
+int timerValue = 0;
 int EXTI13Flag = 0;
 
 /* Private function prototypes -----------------------------------------------*/
@@ -61,20 +69,22 @@ void TIM6_IRQHandler(void)
         if (__HAL_TIM_GET_ITSTATUS(&htim6, TIM_IT_UPDATE) != RESET)
         {
             __HAL_TIM_CLEAR_FLAG(&htim6, TIM_FLAG_UPDATE);
-            /*put your code here */
-						HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
+            
+						// Timer interrupt on Bicolor LED - RED
+					  HAL_GPIO_TogglePin(GPIOA, BICOLOR_RED_PIN);
         }
     }
 }
 
 void EXTI4_15_IRQHandler(void)
 {
-  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_13);
+  HAL_GPIO_EXTI_IRQHandler(BTN_PIN);
 }
 
+// Hardware Interrupt on RED LED
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-  if(GPIO_Pin == GPIO_PIN_13)
+  if(GPIO_Pin == BTN_PIN)
   {
     if (blink_period == 500)
     {
@@ -86,7 +96,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     }
   }
 	
-	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+	HAL_GPIO_TogglePin(GPIOA, RED_LED_PIN);
 
 }
 
@@ -108,12 +118,19 @@ int main(void)
   /* USER CODE BEGIN 2 */
 	Interrupt_SetUp();
   /* USER CODE END 2 */
-
 	
   while (1)
-  {		
-			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-			HAL_Delay(blink_period);		
+  {	
+		// Just blink Board LED LD2
+//		HAL_GPIO_WritePin(GPIOA, LD2_PIN,GPIO_PIN_SET);
+//		HAL_Delay(blink_period);		
+
+		// Timer counter to blink Bicolor Green
+		timerValue = htim6.Instance->CNT;		// Read current timer value
+		if (timerValue == 0 ){
+			HAL_GPIO_TogglePin(GPIOA, LD2_PIN);}
+		else if (timerValue == 500){
+			HAL_GPIO_TogglePin(GPIOA, LD2_PIN);}
   }
 
 }
