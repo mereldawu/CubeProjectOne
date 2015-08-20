@@ -47,11 +47,16 @@ void MX_TIM6_Init(void)
   TIM_MasterConfigTypeDef sMasterConfig;
 
   htim6.Instance = TIM6;
-  htim6.Init.Prescaler = 0;
+  htim6.Init.Prescaler = 15;
   htim6.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim6.Init.Period = 0;
+  htim6.Init.Period = 62499;
   HAL_TIM_Base_Init(&htim6);
-
+	
+	HAL_TIM_Base_Start_IT(&htim6); // start timer interrupts
+	
+	HAL_NVIC_SetPriority(TIM6_IRQn, 0, 1);
+	HAL_NVIC_EnableIRQ(TIM6_IRQn);
+	
   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
   HAL_TIMEx_MasterConfigSynchronization(&htim6, &sMasterConfig);

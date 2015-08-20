@@ -40,65 +40,32 @@
 volatile uint32_t blink_period = 500; // in milliseconds
 int EXTI13Flag = 0;
 
-/* USER CODE BEGIN PV */
-/* Private variables ---------------------------------------------------------*/
-
-/* USER CODE END PV */
-
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+void Interrupt_SetUp(void);
 
-/* USER CODE BEGIN PFP */
-/* Private function prototypes -----------------------------------------------*/
 
-/* USER CODE END PFP */
-
- /* Set Up Interrupt ----------------------------------------------------------*/
-void interrupt_set_up(void)
+/* Set Up Interrupt ----------------------------------------------------------*/
+void Interrupt_SetUp(void)
 {
 	
-//  GPIO_InitTypeDef GPIO_InitStruct;
-//	
-//  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-
-//  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-//	
-//	/* Enable clock for GPIOC */
-//	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
-//	/* Enable clock for SYSCFG */
-//	RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG, ENABLE);
-//	
-//	
-//	/* Tell system that you will use PD0 for EXTI_Line0 */
-//	SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOD, EXTI_PinSource0);
-//	
-
-//	SYSCFG->EXTICR[3]  &= (0010) ;
-//	//1. clear bits 3:0 in the SYSCFG_EXTICR4 (Line4-15 is in EXTIR[3]) reg to amp EXTI Line to NVIC
-
-//	EXTI->RTSR = EXTI_RTSR_TR13;
-//	// 2.Set interrupt trigger to rising edge on Line 13
-
-//	EXTI->IMR = EXTI_IMR_IM13; // 3. unmask EXTI13 line
-//	NVIC_SetPriority(EXTI4_15_IRQn, 1); //4. Set Priority to 1
-//	NVIC_EnableIRQ(EXTI4_15_IRQn);  // 5. Enable EXTI0_1 interrupt in NVIC (do 4 first)
-
 	HAL_NVIC_SetPriority(EXTI4_15_IRQn, 0x0F, 0x00);
 	HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
-
 }
 
-// /* Set Up Interrupt Handler ----------------------------------------------------------*/
-//void EXTI4_15_IRQHandler(void)
-//{
-//    if( (EXTI->IMR & EXTI_IMR_IM13) && (EXTI->PR & EXTI_PR_PR13))
-//        {
-//         EXTI13Flag = 1;
-//         HAL_Delay(500);
-//         while(GPIOA->IDR & GPIO_IDR_ID13){}
-//         EXTI->PR |= EXTI_PR_PR13 ;
-//        }
-//}
+/* Set Up Timer Interrupt Handler -----------------------------------------------------*/
+void TIM6_IRQHandler(void)
+{
+    if (__HAL_TIM_GET_FLAG(&htim6, TIM_FLAG_UPDATE) != RESET)      //In case other interrupts are also running
+    {
+        if (__HAL_TIM_GET_ITSTATUS(&htim6, TIM_IT_UPDATE) != RESET)
+        {
+            __HAL_TIM_CLEAR_FLAG(&htim6, TIM_FLAG_UPDATE);
+            /*put your code here */
+						HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
+        }
+    }
+}
 
 void EXTI4_15_IRQHandler(void)
 {
@@ -119,9 +86,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     }
   }
 	
-//	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_SET);
 	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-//	GPIOA->BSRR = (1<<0);
+
 }
 
 int main(void)
@@ -140,22 +106,15 @@ int main(void)
   MX_TIM6_Init();
 
   /* USER CODE BEGIN 2 */
-	interrupt_set_up();
+	Interrupt_SetUp();
   /* USER CODE END 2 */
 
 	
   while (1)
-  {
-//			GPIOA->BSRR	= (1<<0);
-//			HAL_Delay(blink_period);
-//			GPIOA->BRR = (1<<0);
-//			HAL_Delay(blink_period);
-			
+  {		
 			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-			HAL_Delay(blink_period);
-				
+			HAL_Delay(blink_period);		
   }
-  /* USER CODE END 3 */
 
 }
 
@@ -174,7 +133,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_MSI;
   RCC_OscInitStruct.MSIState = RCC_MSI_ON;
   RCC_OscInitStruct.MSICalibrationValue = 0;
-  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_5;
+  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_5;		// system clock speed = 2MHz
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
   HAL_RCC_OscConfig(&RCC_OscInitStruct);
 
