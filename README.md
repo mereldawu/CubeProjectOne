@@ -3,10 +3,11 @@ Amalgamation of Example Projects that will be relevant to the Biometrics Project
 
 Current features:
 - GPIO R/W
-- External interrupt
-- Timer interrupt blink LED (for checking RFID every second) 
+- External interrupt (Press Button to toggle PA0)
+- Timer interrupt blink LED (Toggle LD2) 
+- RTC Calendar mode, can print current date/time with hardcoded values
+- USART send data, i.e. hardcoded strings
 
 Up and coming features:
-- RTC: time stamp upon interrupt (for logging events)
 - EEPROM: save time stamp in EEPROM (for logging events)
 - ADC/DAC: read pot values, compare and do something (for checking car door is closed)
