@@ -40,7 +40,8 @@
 #endif
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32l0xx_hal.h"
+//#include "stm32l0xx_hal.h"
+#include "stm32l0xx.h"
 void MX_GPIO_Init(void);
 #ifdef __cplusplus
 }

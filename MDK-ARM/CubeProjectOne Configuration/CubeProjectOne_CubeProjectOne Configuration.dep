@@ -1,11 +1,50 @@
 Dependencies for Project 'CubeProjectOne', Target 'CubeProjectOne Configuration': (DO NOT MODIFY !)
-F (..\Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\arm\startup_stm32l053xx.s)(0x55D2DB47)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 516" --pd "STM32L053xx SETA 1"--list startup_stm32l053xx.lst --xref -o "cubeprojectone configuration\startup_stm32l053xx.o" --depend "cubeprojectone configuration\startup_stm32l053xx.d")
-F (..\Src\stm32l0xx_hal_msp.c)(0x55D57176)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_msp.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_msp.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_msp.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+F (..\Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\arm\startup_stm32l053xx.s)(0x55D2DB47)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 516" --pd "STM32L053xx SETA 1"--list startup_stm32l053xx.lst --xref -o "cubeprojectone configuration\startup_stm32l053xx.o" --depend "cubeprojectone configuration\startup_stm32l053xx.d")
+F (..\Src\stm32l0xx_hal_msp.c)(0x55DEDE99)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_msp.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_msp.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_msp.d")
+I (..\Inc\main.h)(0x55DD9B07)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF4A52)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DC3511)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AF4A52)
+F (..\Src\stm32l0xx_it.c)(0x55D57175)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_it.o" --omf_browse "cubeprojectone configuration\stm32l0xx_it.crf" --depend "cubeprojectone configuration\stm32l0xx_it.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -17,6 +56,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -24,41 +65,222 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Src\stm32l0xx_it.c)(0x55D57175)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_it.o" --omf_browse "cubeprojectone configuration\stm32l0xx_it.crf" --depend "cubeprojectone configuration\stm32l0xx_it.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
 I (..\Inc\stm32l0xx_it.h)(0x55D57176)
-F (..\Src\main.c)(0x55D5E200)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\main.o" --omf_browse "cubeprojectone configuration\main.crf" --depend "cubeprojectone configuration\main.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+F (..\Src\main.c)(0x55DEDE99)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\main.o" --omf_browse "cubeprojectone configuration\main.crf" --depend "cubeprojectone configuration\main.d")
+I (..\Inc\main.h)(0x55DD9B07)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF4A52)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DC3511)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AF4A52)
+I (..\Inc\rtc.h)(0x55DC6DA7)
+I (..\Inc\tim.h)(0x55DC0B8B)
+I (..\Inc\gpio.h)(0x55DC0B94)
+I (..\Inc\usart.h)(0x55DDC3D3)
+F (..\Src\gpio.c)(0x55D586D7)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\gpio.o" --omf_browse "cubeprojectone configuration\gpio.crf" --depend "cubeprojectone configuration\gpio.d")
+I (..\Inc\gpio.h)(0x55DC0B94)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Src\tim.c)(0x55DDA9A0)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\tim.o" --omf_browse "cubeprojectone configuration\tim.crf" --depend "cubeprojectone configuration\tim.d")
+I (..\Inc\tim.h)(0x55DC0B8B)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Src\rtc.c)(0x55DEA923)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\rtc.o" --omf_browse "cubeprojectone configuration\rtc.crf" --depend "cubeprojectone configuration\rtc.d")
+I (..\Inc\rtc.h)(0x55DC6DA7)
+I (..\Inc\main.h)(0x55DD9B07)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF4A52)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DC3511)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AF4A52)
+F (..\Src\usart.c)(0x55DEC474)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\usart.o" --omf_browse "cubeprojectone configuration\usart.crf" --depend "cubeprojectone configuration\usart.d")
+I (..\Inc\usart.h)(0x55DDC3D3)
+I (..\Inc\main.h)(0x55DD9B07)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF4A52)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DC3511)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AF4A52)
+F (..\Src\Retarget.c)(0x55DEC495)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\retarget.o" --omf_browse "cubeprojectone configuration\retarget.crf" --depend "cubeprojectone configuration\retarget.d")
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF4A52)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x55AF4A52)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AF4A52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_rcc_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_rcc_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_rcc_ex.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -70,6 +292,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -77,17 +301,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-I (..\Inc\tim.h)(0x55D57175)
-I (..\Inc\gpio.h)(0x55D57174)
-F (..\Src\gpio.c)(0x55D586D7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\gpio.o" --omf_browse "cubeprojectone configuration\gpio.crf" --depend "cubeprojectone configuration\gpio.d")
-I (..\Inc\gpio.h)(0x55D57174)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_flash_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_flash_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_flash_ex.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -99,6 +327,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -106,15 +336,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Src\tim.c)(0x55D5B384)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\tim.o" --omf_browse "cubeprojectone configuration\tim.crf" --depend "cubeprojectone configuration\tim.d")
-I (..\Inc\tim.h)(0x55D57175)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_pwr.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_pwr.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_pwr.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -126,6 +362,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -133,14 +371,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_rcc_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_rcc_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_rcc_ex.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal.crf" --depend "cubeprojectone configuration\stm32l0xx_hal.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -152,6 +397,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -159,14 +406,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_flash_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_flash_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_flash_ex.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_pwr_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_pwr_ex.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -178,6 +432,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -185,14 +441,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_pwr.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_pwr.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_pwr.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_i2c.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_i2c.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_i2c.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -204,6 +467,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -211,14 +476,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal.crf" --depend "cubeprojectone configuration\stm32l0xx_hal.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_rcc.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_rcc.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_rcc.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -230,6 +502,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -237,14 +511,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_pwr_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_pwr_ex.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cortex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_cortex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_cortex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_cortex.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -256,6 +537,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -263,14 +546,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_i2c.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_i2c.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_i2c.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dma.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_dma.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_dma.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_dma.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -282,6 +572,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -289,14 +581,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_rcc.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_rcc.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_rcc.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_gpio.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_gpio.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_gpio.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_gpio.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -308,6 +607,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -315,14 +616,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cortex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_cortex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_cortex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_cortex.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ramfunc.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_flash_ramfunc.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_flash_ramfunc.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_flash_ramfunc.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -334,6 +642,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -341,14 +651,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dma.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_dma.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_dma.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_dma.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_flash.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_flash.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_flash.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -360,6 +677,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -367,14 +686,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_gpio.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_gpio.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_gpio.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_gpio.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_i2c_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_i2c_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_i2c_ex.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -386,6 +712,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -393,14 +721,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ramfunc.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_flash_ramfunc.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_flash_ramfunc.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_flash_ramfunc.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_tim.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_tim.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_tim.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -412,6 +747,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -419,14 +756,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_flash.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_flash.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_flash.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_tim_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_tim_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_tim_ex.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -438,6 +782,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -445,14 +791,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_i2c_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_i2c_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_i2c_ex.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_rtc.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_rtc.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_rtc.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -464,6 +817,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -471,14 +826,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_tim.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_tim.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_tim.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_rtc_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_rtc_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_rtc_ex.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -490,6 +852,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -497,14 +861,21 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_tim_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_tim_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_tim_ex.d")
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_uart.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_uart.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_uart.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_uart.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
@@ -516,6 +887,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -523,18 +896,95 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
-F (..\Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\system_stm32l0xx.c)(0x55D2DB47)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\system_stm32l0xx.o" --omf_browse "cubeprojectone configuration\system_stm32l0xx.crf" --depend "cubeprojectone configuration\system_stm32l0xx.d")
-I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_uart_ex.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_uart_ex.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_uart_ex.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_uart_ex.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
 I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
 I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
 I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
-I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55D2DB75)
-I (..\Inc\stm32l0xx_hal_conf.h)(0x55D57176)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_usart.c)(0x55D2DB75)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\stm32l0xx_hal_usart.o" --omf_browse "cubeprojectone configuration\stm32l0xx_hal_usart.crf" --depend "cubeprojectone configuration\stm32l0xx_hal_usart.d")
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)
+F (..\Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\system_stm32l0xx.c)(0x55D2DB47)(-c --cpu Cortex-M0+ -D__EVAL -g -O3 --apcs=interwork --split_sections -I..\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc -I..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I..\Drivers\CMSIS\Include -I..\Drivers\CMSIS\Device\ST\STM32L0xx\Include --C99-I "\\SBS2011\Usershares\merelda\My Documents\STM32Cube Projects\CubeProjectOne\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.3.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32L053xx -DUSE_HAL_DRIVER -DSTM32L053xx-o "cubeprojectone configuration\system_stm32l0xx.o" --omf_browse "cubeprojectone configuration\system_stm32l0xx.crf" --depend "cubeprojectone configuration\system_stm32l0xx.d")
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x55DC0B47)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x55D2DB47)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x55D2DB48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF4A52)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x55D2DB48)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x55D2DB47)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x55DB187D)
+I (..\Inc\stm32l0xx_hal_conf.h)(0x55DDC3FF)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x55D2DB75)
@@ -542,6 +992,8 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x55D2DB75)
@@ -549,5 +1001,12 @@ I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x55DB14F4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x55D2DB75)
 I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x55D2DB75)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x55D2DB75)

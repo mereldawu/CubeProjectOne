@@ -35,10 +35,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "tim.h"
 
-/* USER CODE BEGIN 0 */
-
-/* USER CODE END 0 */
-
 TIM_HandleTypeDef htim6;
 
 /* TIM6 init function */
@@ -62,38 +58,6 @@ void MX_TIM6_Init(void)
   HAL_TIMEx_MasterConfigSynchronization(&htim6, &sMasterConfig);
 
 }
-
-void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
-{
-
-  if(htim_base->Instance==TIM6)
-  {
-  /* USER CODE BEGIN TIM6_MspInit 0 */
-
-  /* USER CODE END TIM6_MspInit 0 */
-    /* Peripheral clock enable */
-    __TIM6_CLK_ENABLE();
-  /* USER CODE BEGIN TIM6_MspInit 1 */
-
-  /* USER CODE END TIM6_MspInit 1 */
-  }
-}
-
-void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
-{
-
-  if(htim_base->Instance==TIM6)
-  {
-  /* USER CODE BEGIN TIM6_MspDeInit 0 */
-
-  /* USER CODE END TIM6_MspDeInit 0 */
-    /* Peripheral clock disable */
-    __TIM6_CLK_DISABLE();
-  }
-  /* USER CODE BEGIN TIM6_MspDeInit 1 */
-
-  /* USER CODE END TIM6_MspDeInit 1 */
-} 
 
 /* USER CODE BEGIN 1 */
 

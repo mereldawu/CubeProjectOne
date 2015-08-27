@@ -39,7 +39,8 @@
 #endif
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32l0xx_hal.h"
+//#include "stm32l0xx_hal.h"
+#include "stm32l0xx.h"
 
 extern TIM_HandleTypeDef htim6;
 

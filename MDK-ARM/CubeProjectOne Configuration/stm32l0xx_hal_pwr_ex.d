@@ -16,6 +16,8 @@ cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Dr
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h
@@ -23,5 +25,12 @@ cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Dr
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h
 cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h
+cubeprojectone configuration\stm32l0xx_hal_pwr_ex.o: ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h

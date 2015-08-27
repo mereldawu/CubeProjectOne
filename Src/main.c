@@ -31,10 +31,14 @@
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
-#include "stm32l0xx_hal.h"
-#include "stm32l0xx.h"
+#include "main.h"
+#include <time.h>
+#include "rtc.h"
 #include "tim.h"
 #include "gpio.h"
+#include "usart.h"
+
+//#include "hd44780.h"
 
 /* IO Definitions ----------------------------------------------------------*/
 #define LD2_PIN GPIO_PIN_5
@@ -43,15 +47,51 @@
 #define BICOLOR_RED_PIN GPIO_PIN_4
 #define BICOLOR_GREEN_PIN GPIO_PIN_0
 
+#define SYS_TIME 0x11
+
 /* Private variables ---------------------------------------------------------*/
 volatile uint32_t blink_period = 500; // in milliseconds
 int timerValue = 0;
 int EXTI13Flag = 0;
 
+RTC_HandleTypeDef RtcHandle;			// RTC handler declaration
+
+/* Buffers used for displaying Time and Date */
+uint8_t aShowTime[50] = {0};
+uint8_t aShowDate[50] = {0};
+char buffer[50] ={0};
+char buffer_msg[50] ={0};
+char buffer1[50] ={0};
+char buffer2[24]={0};
+uint8_t buffer_int[5]={0};
+uint8_t buffer_intc[5]={0};
+
+char *endl = "\n\r";
+
+int c;
+
+time_t rawtime;
+
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 void Interrupt_SetUp(void);
 
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @param  None
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  while(1)
+  {
+    /* Turn LED2 on */
+    HAL_GPIO_TogglePin(GPIOA, LD2_PIN);
+    
+    /* Delay */
+    HAL_Delay(100);
+  }
+}
 
 /* Set Up Interrupt ----------------------------------------------------------*/
 void Interrupt_SetUp(void)
@@ -72,6 +112,9 @@ void TIM6_IRQHandler(void)
             
 						// Timer interrupt on Bicolor LED - RED
 					  HAL_GPIO_TogglePin(GPIOA, BICOLOR_RED_PIN);
+						
+//						HAL_UART_Transmit(&huart2, (char*)aShowTime, strlen((char*)aShowTime), 0xFFFF);
+//						HAL_UART_Transmit(&huart2, (char*)endl, strlen(endl), 0xFFFF);
         }
     }
 }
@@ -100,6 +143,27 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 
 }
 
+void Print_on_Watch(char* buffer)
+{
+	sprintf (buffer, "%s", ctime(&rawtime) );
+}
+
+void Print_on_Watch_int(uint8_t* buffer_int)
+{
+	sprintf ((char*) buffer_int, "%d", timerValue );
+}
+
+void Print_on_Watch_intc(uint8_t* buffer_intc)
+{
+	sprintf ((char*) buffer_intc, "%d", c );
+}
+
+time_t time(time_t* t) {
+    time_t tmp = SYS_TIME;
+    if (t) *t = tmp;
+    return tmp;
+}
+
 int main(void)
 {
 
@@ -114,24 +178,61 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM6_Init();
-
+	MX_RTC_Init();
+	MX_USART2_UART_Init();
+	
   /* USER CODE BEGIN 2 */
 	Interrupt_SetUp();
-  /* USER CODE END 2 */
+
+	char *msg = "Hello Nucleo Fun!\n\r";
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), 0xFFFF);
 	
+		sprintf (buffer_msg, "%s", msg );
+	
+	msg = "Press a key.\n\r";
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), 0xFFFF);
+	
+//		c = getchar ();
+		HAL_UART_Receive(&huart2, (char*)c, strlen((char*)c), 0xFFFF);
+		HAL_UART_Transmit(&huart2, (uint8_t*)endl, strlen(endl), 0xFFFF);
+		msg = "You pressed this key: ";
+		HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), 0xFFFF);
+//		HAL_UART_Transmit(&huart2, (uint8_t*)c, strlen(c), 0xFFFF);
+		HAL_UART_Transmit(&huart2, (char*)c, strlen((char*)c), 0xFFFF);
+		
+		Print_on_Watch_intc(buffer_intc);
+		
+		printf ("You pressed '%c'.\r\n\r\n", c);
+
+//	
+//	char *msg_receive;
+//	HAL_UART_Receive(&huart2, (uint8_t*)msg_receive, strlen(msg_receive), 0xFFFF);
+//	msg = msg_receive;
+//	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), 0xFFFF);
   while (1)
   {	
-		// Just blink Board LED LD2
-//		HAL_GPIO_WritePin(GPIOA, LD2_PIN,GPIO_PIN_SET);
-//		HAL_Delay(blink_period);		
-
+		HAL_UART_Receive(&huart2, (char*)c, strlen((char*)c), 0xFFFF);
+		HAL_UART_Transmit(&huart2, (char*)c, strlen((char*)c), 0xFFFF);
+		
+		time(&rawtime);		// returns Thu Jan 1 00:00:17 1970
+		Print_on_Watch(buffer);
+							
+		RTC_CalendarShow(aShowTime, aShowDate);
+		
+//		HAL_UART_Transmit(&huart2, buffer, strlen(buffer), 0xFFFF);
+		
+		Print_on_Watch(buffer);
+		
 		// Timer counter to blink Bicolor Green
 		timerValue = htim6.Instance->CNT;		// Read current timer value
+		
+		Print_on_Watch_int(buffer_int);
+		
 		if (timerValue == 0 ){
 			HAL_GPIO_TogglePin(GPIOA, LD2_PIN);}
-		else if (timerValue == 500){
+		else if (timerValue >= 50000){
 			HAL_GPIO_TogglePin(GPIOA, LD2_PIN);}
-  }
+		}
 
 }
 
